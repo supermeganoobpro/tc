@@ -1,0 +1,100 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[6];
+    char b[6];
+    char c[20];
+    printf("bem vindo ao Oráculo sênior, creio que procura pelo seu chefe \n escreva sim e depois precione enter para continuar: \n");
+    scanf("%s", a);
+    if(strcmp(a, "sim") == 0){
+        printf("então você terá sua resposta, porém, primeiro terá de fornecer conhecimento ao Oráculo\n complete o lema, o escoteiro está sempre ...... ?\n");
+        scanf("%s", b);
+        if(strcmp(b, "alerta") == 0){
+            printf("muito bem, 3\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o primeiro nome do personagem principal da obra, O  guia mochileiro das galaxias?\n");
+        scanf("%s",c);
+        if(strcmp(c, "arthur") == 0){
+            printf("muito bem, 15\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o primeiro nome do famoso cantor .... Mercury?\n");
+        scanf("%s",c);
+        if(strcmp(c, "fred") == 0){
+            printf("muito bem, 18\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("complete a frase da musica, viva la vida ....\n");
+        scanf("%s",c);
+        if(strcmp(c, "loca") == 0){
+            printf("muito bem, 4\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("em qual pais banden powell lutou na africa contra os matabale? \n");
+        scanf("%s",c);
+        if(strcmp(c, "rodesia") == 0){
+            printf("muito bem, 9\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o segundo nome do fisico responsavel pelas leis da gravidade?\n");
+        scanf("%s",c);
+        if(strcmp(c, "newton") == 0){
+            printf("muito bem, 1\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o sobrenome do biologo responsavel por criar a teoria da evolução?\n");
+        scanf("%s",c);
+        if(strcmp(c, "darwin") == 0){
+            printf("muito bem, 12\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o primeiro nome do engenheiro responsavel pela construção da torre Eiffel?\n");
+        scanf("%s",c);
+        if(strcmp(c, "gustave") == 0){
+            printf("muito bem, 9\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o nome da moeda em circulação no camboja .... ?\n");
+        scanf("%s",c);
+        if(strcmp(c, "riel") == 0){
+            printf("muito bem, 4\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o nome do primeiro satélite em orbita?\n");
+        scanf("%s",c);
+        if(strcmp(c, "sputnik") == 0){
+            printf("muito bem, 1\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o nome do rover que pousou em marte esse ano?\n");
+        scanf("%s",c);
+        if(strcmp(c, "perseverance") == 0){
+            printf("muito bem, 4\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+        printf("qual o nome da personagem principal feminina de Dom casmurro?\n");
+        scanf("%s",c);
+        if(strcmp(c, "capitu") == 0){
+            printf("muito bem, 5\n");
+        }else{
+        printf("errou,recomece o programa\n");
+        }
+    }else{
+        printf("recomece o programa\n");
+    }
+    
+    return 0;
+}
